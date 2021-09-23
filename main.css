@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.card .box-1 {
+  width: 460px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 20px #444444;
+          box-shadow: 0 0 20px #444444;
+  color: black;
+  margin-top: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.card .box-1 h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.card .box-1 .text-boshi {
+  padding: 12px 0;
+}
+
+.card .box-1 .number {
+  padding: 10px 0;
+}
+
+.card .box-1 input {
+  border-radius: 20px;
+  padding: 10px 0;
+  text-align: center;
+  border: 2px solid red;
+}
+
+.card .box-1 .text {
+  padding: 12px 0;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+
+.card .box-1 .button {
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 2px solid green;
+  margin: 10px 0;
+}
+
+.card .box-2 {
+  margin-top: 100px;
+}
+
+.card .box-2 img {
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 20px #444444;
+          box-shadow: 0 0 20px #444444;
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */
